@@ -1,0 +1,18 @@
+# 敏感文件永不入库
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+github-token
+credentials*
+*.db
+*.sqlite
+*.sqlite3
+
+# 本地临时
+*.log
+.DS_Store
+__pycache__/
+*.pyc
